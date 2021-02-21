@@ -36,7 +36,7 @@ sign_url = "https://reportedh5.17wanxiao.com/sass/api/epmpics"
 
 jsons = {
     "businessType": "epmpics",
-    "method": "submitUpInfoSchool",
+    "method": "submitUpInfo",
     "jsonData": {
         "deptStr": {
             "deptid": deptId,
@@ -44,7 +44,7 @@ jsons = {
         },
         "areaStr": areaStr,
         "reportdate": round(time.time() * 1000),
-        "customerid": 43,
+        "customerid": 786,
         "deptid": deptId,
         "source": "app",
         "templateid": templateid,
@@ -52,14 +52,24 @@ jsons = {
         "username": username,
         "userid": userid,
         "updatainfo": [
-            {
-                "propertyname": "temperature",
-                "value": temperature
-            },
-            {
-                "propertyname": "symptom",
-                "value": "无症状"
-            }
+            {"propertyname":"temperature","value":"36.6"},
+            {"propertyname":"symptom","value":"无症状"},
+            {"propertyname":"isConfirmed","value":"否"},
+            {"propertyname":"isdefinde","value":"否.未隔离"},
+            {"propertyname":"isGoWarningAdress","value":"否"},
+            {"propertyname":"isTouch","value":"否"},
+            {"propertyname":"isFFHasSymptom","value":"没有"},
+            {"propertyname":"isContactFriendIn14","value":"没有"},
+            {"propertyname":"xinqing","value":"健康"},
+            {"propertyname":"bodyzk","value":"是"},
+            {"propertyname":"cxjh","value":"否"},
+            {"propertyname":"isleaveaddress","value":"否"},
+            {"propertyname":"gtjz0511","value":"否"},
+            {"propertyname":"medicalObservation","value":"绿色"},
+            {"propertyname":"ownPhone","value":"13789313052"},
+            {"propertyname":"emergencyContact","value":"林凤先"},
+            {"propertyname":"mergencyPeoplePhone","value":"13786243112"},
+            {"propertyname":"assistRemark","value":""}
         ],
         "customerAppTypeRuleId": customerAppTypeRuleId,
         "clockState": 0
